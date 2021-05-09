@@ -1,13 +1,6 @@
 # TCP Chat Room
 
-Python implementation of a simple chat room using TCP protocol.
-
-**Credit for idea and original code**: [NeuralNine](https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA)
-(see videos on the topic, [basic](https://www.youtube.com/watch?v=3UOyky9sEQY)
-and [advanced](https://www.youtube.com/watch?v=F_JDA96AdEI)).
-
-**Disclaimer**: this is not meant to be applicable in any sort of production environment;
-it is totally unsecure, utterly unstable, and extremely buggy. But it was fun to make. 
+Python implementation of a chat room using TCP protocol.
 
 ## Requirements
 
@@ -43,8 +36,3 @@ Supported admin commands:
 * `/unban abc` -- unban user `abc` (remove from ban list)
 * `/banned` -- show banned users list
 
-## Conventions
-
-Commands should start with `/` -- example: `/admin`
-
-Special server instructions should be surrounded by `%` -- example: `%QUIT%`
